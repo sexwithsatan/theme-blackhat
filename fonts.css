@@ -1,0 +1,39 @@
+:root {
+         --green: limegreen;
+          --gray: darkgray;
+        --orange: coral;
+         --black: black;
+     --alt-black: #222;
+         --white: ghostwhite;
+     --alt-white: silver;
+        --yellow: gold;
+    --alt-yellow: goldenrod; }
+
+body {
+  font: 10pt/1.2 'Helvetica', sans-serif;
+  color: var(--white);
+  background: var(--black); }
+
+.tt {
+  font: 12pt/1.2 'Courier New', monospace;
+  color: var(--alt-white);
+  background: var(--alt-black); }
+
+h1,
+h2 {
+  color: var(--green); }
+.alt {
+  color: var(--orange); }
+.fine {
+  color: var(--gray); }
+
+a:link {
+  color: var(--yellow); }
+a:visited {
+  color: var(--alt-yellow); }
+a:focus {
+  outline: 1px dotted var(--gray); }
+a:hover {
+  color: var(--white); }
+a:active {
+  color: var(--orange); }
